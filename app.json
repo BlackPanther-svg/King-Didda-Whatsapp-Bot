@@ -24,8 +24,8 @@
     },
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered",
@@ -62,8 +62,8 @@
     },
     "READ_COMMAND": {
       "description": "Read all commands",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     }
   },
   "addons": [
