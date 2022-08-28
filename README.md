@@ -8,10 +8,9 @@
 
 ### Setup
 
-1. Click 
+1. Click [Here](https://levanter.up.railway.app/md) and scan QR through Whatsapp Linked Devices Option in Your whatsapp App.
 
 
- and scan QR through Whatsapp Linked Devices Option in Your whatsapp App.
 
 2. You will get a session id in whatsapp, copy id only.
 
