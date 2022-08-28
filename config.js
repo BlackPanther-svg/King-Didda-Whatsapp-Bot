@@ -13,7 +13,7 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined ? './database.db' : 
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG)
 module.exports = {
 	VERSION: 'v3.0.0', 
-    SESSION_ID: process.env.SESSION_ID || '',
+    SESSION_ID: process.env.SESSION_ID || '27_8_session_id_4a4b_bba5_8f_LyFE',
     MODE: process.env.MODE || 'public',
     HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
     SEND_READ: process.env.READ_COMMAND || false, 
@@ -21,10 +21,10 @@ module.exports = {
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || true,
-    BOT_NAME: process.env.BOT_NAME || '𝛨𝛯𝑅𝛭𝛪𝑇',
-    BOT_INFO: process.env.BOT_INFO || '𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;972528277755;https://i.imgur.com/6oRG106.jpeg',
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? '𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮;https://i.imgur.com/fj2WE83.jpeg' : process.env.AUDIO_DATA,
-    STICKER_DATA: process.env.STICKER_DATA === undefined ? '𝛨𝛯𝑅𝛭𝛪𝑇;𝛥𝐷𝛪𝑇𝛨𝑌𝛥𝛮' : process.env.AUDIO_DATA,
+    BOT_NAME: process.env.BOT_NAME || '🧸̶⃮⃖🤍̶⃮⃖🦋||KIᑎG ᗪIᗪᗪᗩ  ̶⃮⃖|🍓Bot̶⃮⃖✨̶⃮⃖🌸',
+    BOT_INFO: process.env.BOT_INFO || '🧸̶⃮⃖🤍̶⃮⃖🦋||KIᑎG ᗪIᗪᗪᗩ  ̶⃮⃖|🍓Bot̶⃮⃖✨̶⃮⃖🌸;🧸̶⃮⃖🤍̶⃮⃖🦋||KIᑎG ᗪIᗪᗪᗩ  ̶⃮⃖|🍓Bot̶⃮⃖✨̶⃮⃖🌸;972528277755;https://i.imgur.com/6oRG106.jpeg',
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? '🧸̶⃮⃖🤍̶⃮⃖🦋||KIᑎG ᗪIᗪᗪᗩ  ̶⃮⃖|🍓Bot̶⃮⃖✨̶⃮⃖🌸;᳆⃟ʜᷘᴜᷧɴᷢᴛⷦᴇʀꜱ™৫ ᴅɪɴɪʏᴀᜰ;https://i.imgur.com/fj2WE83.jpeg' : process.env.AUDIO_DATA,
+    STICKER_DATA: process.env.STICKER_DATA === undefined ? '🧸̶⃮⃖🤍̶⃮⃖🦋||KIᑎG ᗪIᗪᗪᗩ  ̶⃮⃖|🍓Bot̶⃮⃖✨̶⃮⃖🌸;᳆⃟ʜᷘᴜᷧɴᷢᴛⷦᴇʀꜱ™৫ ᴅɪɴɪʏᴀᜰ' : process.env.AUDIO_DATA,
     ERROR_MESSAGE: convertToBool(process.env.ERROR_MESSAGE) || true, 
     WARN: process.env.WARN || '4',
     HEROKU: {
@@ -37,7 +37,7 @@ module.exports = {
        DATABASE_URL === './database.db' ? new Sequelize({dialect: 'sqlite', storage: DATABASE_URL, logging: false,}) : new Sequelize(DATABASE_URL, {dialect: 'postgres', ssl: true, protocol: 'postgres', dialectOptions: {native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false,}),
        RBG_API_KEY: process.env.REMOVE_BG_API_KEY === undefined ? false : process.env.REMOVE_BG_API_KEY,
        ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || true,
-       SUDO: process.env.SUDO || '917034892686,0,972528277755',
+       SUDO: process.env.SUDO || '94741671668,0,972528277755',
        DEBUG: DEBUG
 };
 
